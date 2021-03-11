@@ -6,7 +6,7 @@ import (
 )
 
 const (
-	PathLen = 4 // num of bytes for path, 32bit
+	PathLen = 32 // num of bytes for path, 32bit
 )
 
 var (
