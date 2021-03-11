@@ -92,5 +92,5 @@ func (th *treeHasher) pathSize() int {
 }
 
 func (th *treeHasher) placeholder() []byte {
-	return bytes.Repeat([]byte{0}, th.pathSize())
+	return bytes.Repeat([]byte{0}, th.hasher.Size())
 }
